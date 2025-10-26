@@ -1,0 +1,5 @@
+node_modules/
+
+gestao-biblioteca.db
+
+/generated/prisma
