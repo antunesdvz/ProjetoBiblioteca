@@ -1,4 +1,4 @@
-# 📚 Projeto Final — API de Sistema de Biblioteca (Simplificado)
+# 📚 Projeto — API de Gestão de Biblioteca
 
 Este projeto é uma API REST para gerenciamento de livros de uma biblioteca, com autenticação básica e diferenciação entre usuários comuns e administradores.
 
@@ -35,8 +35,8 @@ Este projeto é uma API REST para gerenciamento de livros de uma biblioteca, com
 ## 🗂️ Estrutura do Projeto
 
 > ⚠️ **Observação importante:**  
-> A estrutura abaixo **não segue exatamente o modelo sugerido pelo professor**, mas foi adaptada para funcionar corretamente com Prisma, Express e organização de código.  
-> O Prisma está dentro da pasta `src/`, e o banco de dados é gerado localmente.
+> A estrutura abaixo **não segue exatamente o modelo sugerido**, mas foi adaptada para funcionar corretamente com Prisma, Express e organização de código.  
+> O Prisma e o arquivo .env está dentro da pasta `src/`, e o banco de dados é gerado localmente.
 
 ```plaintext
 projeto-biblioteca/
@@ -55,7 +55,7 @@ projeto-biblioteca/
 │   │   ├── auth.js
 │   │   └── books.js
 │   └── server.js
-├── .env
+│   └──.env
 ├── .gitignore
 ├── package.json
 └── README.md
