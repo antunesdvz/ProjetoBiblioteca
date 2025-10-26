@@ -36,7 +36,7 @@ Este projeto é uma API REST para gerenciamento de livros de uma biblioteca, com
 
 > ⚠️ **Observação importante:**  
 > A estrutura abaixo **não segue exatamente o modelo sugerido**, mas foi adaptada para funcionar corretamente com Prisma, Express e organização de código.  
-> O Prisma e o arquivo .env está dentro da pasta `src/`, e o banco de dados é gerado localmente.
+> O Prisma, o arquivo server.js e o arquivo .env estão dentro da pasta `src/`, e o banco de dados é gerado localmente.
 
 ```plaintext
 projeto-biblioteca/
