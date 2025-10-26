@@ -5,7 +5,6 @@ Este projeto é uma API REST para gerenciamento de livros de uma biblioteca, com
 ---
 
 ## 🎯 Objetivos de Aprendizagem
-a
 - Implementar rotas seguindo padrão REST
 - Criar middlewares de autenticação e autorização
 - Implementar autenticação via Basic Token
