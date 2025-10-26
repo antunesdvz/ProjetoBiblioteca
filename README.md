@@ -58,4 +58,5 @@ projeto-biblioteca/
 │   └──.env
 ├── .gitignore
 ├── package.json
+├── prisma.config.ts
 └── README.md
