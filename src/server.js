@@ -13,5 +13,5 @@ app.use('/auth', authRouter);
 app.use('/books', booksRouter);
     
 app.listen(PORTA, () => {
-    console.log(`🚀 Servidor rodando na porta ${PORTA}`);
+    console.log(`Servidor rodando na porta ${PORTA}`);
 });
